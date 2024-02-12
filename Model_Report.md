@@ -13,8 +13,8 @@
      * SPECIAL_CONSIDERATIONS - Special considerations for application
      * ASK_AMT - Funding amount requested
  * Variables removed:
-     * EIN - Applicant ID
-     * NAME - Name of applicant
+     * EIN - Applicant ID, this is an identification column so it might confuse the model when training 
+     * NAME - Name of applicant, this is an identification column so it might confuse the model when training 
 
  * In my initial model, I chose to create a basic model with two hidden layers and an output layer. The first hidden layer has 80 neurons and the second layer has 30 neurons. Both layers use ReLU as the activation function. The output layer uses sigmoid for the activation function. I chose these numbers because they were basic and knowning I would be adjusting these hyperparameters in the future.
 
@@ -26,8 +26,7 @@
 
  * Even after all the optimization attempts, the best performance I could achieve was 72.65% accuracy.
 
-3. Overall, it is very difficult to try get past the 72% accuracy hurdle despite the optimization attempts. The charity data requires a deeper understanding in order for more accurate neural network models to be created. I would recommend try breaking up the 'Other' category for the APPLICATION_TYPE column more so the models can try to understand the complexity of the data more. This can allow models to gain a few more points in accuracy.
-
+3. Overall, it is very difficult to try get past the 72% accuracy hurdle despite the optimization attempts. The charity data requires a deeper understanding in order for more accurate neural network models to be created. I would recommend using a Random Forest Model because it is another classification model. It trains on different subsets of the data, so it can be good for preventing overfitting and underfitting. I trained a basic random forest model on the charity data and recieved a 71% accuracy. With more adjustments, this may achieve higher accuracy. 
 
 
 
