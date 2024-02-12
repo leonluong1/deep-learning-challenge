@@ -26,7 +26,7 @@
 
  * Even after all the optimization attempts, the best performance I could achieve was 72.65% accuracy.
 
-3. Overall, it is very difficult to try get past the 72% accuracy hurdle despite the optimization attempts. The charity data requires a deeper understanding in order for more accurate neural network models to be created. I would recommend using a Random Forest Model because it is another classification model. It trains on different subsets of the data, so it can be good for preventing overfitting and underfitting. I trained a basic random forest model on the charity data and recieved a 71% accuracy. With more adjustments, this may achieve higher accuracy. 
+3. Overall, it is very difficult to try get past the 72% accuracy hurdle despite the optimization attempts. The charity data requires a deeper understanding in order for more accurate neural network models to be created. I would recommend using a Random Forest Model because it is another classification model. It trains on different subsets of the data, so it can be good for preventing overfitting and underfitting. I trained a basic random forest model on the charity data and received a 71% accuracy score. With more adjustments, this may achieve higher accuracy. 
 
 
 
